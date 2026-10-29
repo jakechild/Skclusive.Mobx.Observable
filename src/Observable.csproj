@@ -8,6 +8,7 @@
     <RootNamespace>Skclusive.Mobx.Observable</RootNamespace>
     <Authors>Skclusive</Authors>
     <Company>Skclusive</Company>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
 
    <ItemGroup>
