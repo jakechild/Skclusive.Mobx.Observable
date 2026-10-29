@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
 namespace Skclusive.Mobx.Observable
 {
@@ -17,7 +17,6 @@ namespace Skclusive.Mobx.Observable
         bool IsPendingUnobservation { get; set; }
 
         void OnBecomeUnobserved();
-
         void OnBecomeObserved();
     }
 }

@@ -1,20 +1,16 @@
-﻿namespace Skclusive.Mobx.Observable
+namespace Skclusive.Mobx.Observable
 {
     public interface IManipulator
     {
         object Enhance(object value);
-
         object Enhance(object newv, object oldV, object name);
-
         object Dehance(object value);
     }
 
     public interface IManipulator<TIn, TOut> : IManipulator
     {
         TIn Enhance(TOut value);
-
         TIn Enhance(TIn newv, TIn oldV, object name);
-
         TOut Dehance(TIn value);
     }
 

@@ -1,4 +1,4 @@
-﻿namespace Skclusive.Mobx.Observable
+namespace Skclusive.Mobx.Observable
 {
     public interface IMapWillChange
     {
@@ -14,7 +14,6 @@
     public interface IMapWillChange<TKey, TValue> : IMapWillChange
     {
         new TKey Name { get; }
-
         new TValue NewValue { get; set; }
     }
 }

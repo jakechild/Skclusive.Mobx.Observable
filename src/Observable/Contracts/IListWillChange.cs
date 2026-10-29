@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
 namespace Skclusive.Mobx.Observable
 {
@@ -20,7 +20,6 @@ namespace Skclusive.Mobx.Observable
     public interface IListWillChange<TValue> : IListWillChange
     {
         new TValue NewValue { get; set; }
-
         new TValue[] Added { get; set; }
     }
 }

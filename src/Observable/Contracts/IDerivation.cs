@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -21,7 +21,7 @@ namespace Skclusive.Mobx.Observable
         */
         int UnboundDepsCount { get; set; }
 
-        string MapId { get; set;  }
+        string MapId { get; set; }
 
         TraceMode Mode { get; set; }
 

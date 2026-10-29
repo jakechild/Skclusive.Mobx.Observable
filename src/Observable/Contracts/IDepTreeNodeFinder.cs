@@ -1,4 +1,4 @@
-﻿namespace Skclusive.Mobx.Observable
+namespace Skclusive.Mobx.Observable
 {
     internal interface IDepTreeNodeFinder
     {
